@@ -62,29 +62,61 @@
 
 <section id="Contact">
     <!--<h2>Contact</h2>
-<p>Email:<a href="mailto:bhavanaramesh28gmail.com">bhavanaramesh28gmail.com</a>,</p>
+<p>Email:<a href="mailto:space6270@gmail.com">space6270@gmail.com</a>,</p>
 <p>github:<a href="https://github.com/keerthan1606">keerthan1606</a></p>
 <p>linkedin:<a href="https://www.linkedin.com/in/keerthan-s-gowda-5521aa381/">keerthan s gowda</a></p> -->
-<h2>Contact Me</h2>
-<p>Have a project in mind? Let's talk</p>
-<form action="">
-<label for="name">Your Name:</label>
-<input type="text" name="name" id="name" required placeholder="Enter your name">
-<label for="email">Email:</label>
-<input type="text" name="email" id="email" required placeholder="Enter your email">
-<label for="subject">Subject</label>
-<select name="country" id="country">
-  <option value="-- select a value --">-- select a value --</option>
-  <option value="hire">I want to hire you </option>
-  <option value="collab">I want to collab you</option>
-  <option value="others">others</option>
-   <label for="message">Message:</label><br>
-    <textarea name="message " id="messaage" placeholder="Please drop a message"></textarea><br>
-  <button type="submit" value="submit">submit</button>
-  <button type="reset" value="Reset">Reset</button>
-  </select>
-</section>
-</form>
+
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Text -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Radio -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interests" value="Coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="gaming" name="interests" value="Gaming">
+        <label for="gaming">Gaming</label><br><br>
+
+        <!-- Select -->
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course">
+            <option value="webdev">Web Development</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="ml">Machine Learning</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+
+        <!-- File -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Register">
+    </form>
     
 </body>
 </html>
