@@ -1,0 +1,7 @@
+div{
+    width: 300px;
+    border: 4px dotted rgb(227, 34, 34);
+    text-align: justify;
+    padding: 40px;
+    margin: 90px;
+}

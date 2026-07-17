@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio keerthan</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">keerthan</div>
+
+        <ul>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="flase"
+          title="Toggle menu"
+        >
+          ☰
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero-section">
+        <h1>Hi, I'm keerthan 👋</h1>
+        <p>I'm a passionate web developer from bangalore</p>
+        <div class="hero-buttons">
+          <a href="#about" class="hire-me-button">Hire Me</a>
+          <a href="#projects" class="view-projects-button">View Projects</a>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="k2.jpeg" alt="profile_pic" width="200px" height="200px" />
+        <p>
+          I love buliding things on the web. Currently learning HTML, CSS,
+          JavaScript and react.
+        </p>
+        <h3>My Learning Journey</h3>
+        <ol>
+          <li>Started with basic HTML structure</li>
+          <li>Learned CSS for styling</li>
+          <li>Practiced JavaScript for interactivity</li>
+          <li>Exploring React for building dynamic apps</li>
+        </ol>
+      </section>
+      <section id="skills">
+        <div class="skill-grid" class="skill-section"></div>
+        <h2>My Skills</h2>
+        <div class="skill-gird">
+            <div class="skill" data-skill="HTML>
+                <h3>HTML</h3>
+                <p>Proficiency: Advanced</p>
+                <p>Years of Experience: 5 Years</p>
+        </div>
+        </div>
+        <table border="6">
+          <tr>
+            <th>Technology</th>
+            <th>Proficiency</th>
+            <th>Years of Experience</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Advanced</td>
+            <td>5 Years</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Intermediate</td>
+            <td>2 Years</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>Intermediate</td>
+            <td>2 Years</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>Advanced</td>
+            <td>5 Years</td>
+          </tr>
+          <tr>
+            <td>React</td>
+            <td>Beginner</td>
+            <td>1 Year</td>
+          </tr>
+        </table>
+      </section>
+      <section id="projects">
+        <h2>My Projects</h2>
+        <h3>project 1</h3>
+        <p>description of project 1</p>
+        <a href="#view">view project</a>
+        <h3>project 2</h3>
+        <p>description of project 2</p>
+        <a href="#view1">view project</a>
+        <h3>project 3</h3>
+        <p>description of project 3</p>
+        <a href="#view2">view project</a>
+      </section>
+      <hr />
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Email : <a href="mailto:space6270@gmail.com">space6270@gmail.com</a>
+        </p>
+        <p>
+          Github : <a href="https://github.com/keerthan1606">keerthan1606</a>
+        </p>
+        <p>
+          linkedin :
+          <a href="https://www.linkedin.com/in/keerthan-s-gowda-5521aa381/"
+            >keerthansgowda</a
+          >
+        </p>
+      </section>
+      <hr />
+      <section id="registration">
+        <h2>Registration Form</h2>
+
+        <form>
+          <label>Full Name:</label><br />
+          <input
+            type="text"
+            placeholder="Enter your full name"
+            name="fullname"
+            required
+          /><br /><br />
+
+          <label>Email:</label><br />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            required
+          /><br /><br />
+
+          <label>Password:</label><br />
+          <input
+            type="password"
+            placeholder="Enter your password"
+            name="password"
+            required
+          /><br /><br />
+
+          <label>Gender:</label><br />
+          <input type="radio" name="gender" value="Male" /> Male
+          <input type="radio" name="gender" value="Female" /> Female
+          <br /><br />
+
+          <label>Skills:</label><br />
+          <input type="checkbox" name="skill" value="HTML" /> HTML
+          <input type="checkbox" name="skill" value="CSS" /> CSS
+          <input type="checkbox" name="skill" value="JavaScript" /> JavaScript
+          <br /><br />
+
+          <label>Country:</label><br />
+          <select name="country">
+            <option>India</option>
+            <option>Israel</option>
+            <option>Russia</option>
+            <option>New Zealand</option>
+            <option>UAE</option>
+          </select>
+          <br /><br />
+          <label>Date of Birth:</label><br />
+          <input type="date" name="dob" /><br /><br />
+          <label>Upload Resume:</label><br />
+          <input type="file" name="resume" /><br /><br />
+          <label>Address:</label><br />
+          <textarea
+            name="address"
+            placeholder="Enter your address"
+            rows="5"
+            cols="30"
+          ></textarea>
+          <br /><br />
+          <input type="submit" value="Register" />
+          <input type="reset" value="Clear" />
+        </form>
+      </section>
+    </main>
+    <footer>2024 [keerthan]. All rights reserved</footer>
+  </body>
+</html>
