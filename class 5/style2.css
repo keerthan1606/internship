@@ -1,7 +1,14 @@
 div{
     width: 300px;
-    border: 4px dotted rgb(227, 34, 34);
+    border: 4px dotted rgb(240, 7, 7);
     text-align: justify;
-    padding: 40px;
-    margin: 90px;
+    
+    
+    
+}
+body{
+    background-color: rgb(219, 12, 12);
+    background-image: url("../images.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
