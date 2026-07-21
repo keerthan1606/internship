@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio keerthan</title>
+    <link rel="stylesheet" href="assignment5.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">Keerthan</div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button
+          class="theme-toggle"
+          aria-label="Toggle dark mode"
+          title="Toggle dark mode"
+        >
+          🌙
+        </button>
+        <button
+          class="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ≡
+        </button>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="hero-section">
+        <h1>Hi, I'm Keerthan 👋</h1>
+        <p>I'm a passionate Web Developer from Bengaluru.</p>
+        <div class="hero-button">
+          <a href="#projects">View My Work</a>
+          <a href="#contact">Contact Me</a>
+        </div>
+      </section>
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <figure class="profile-figure">
+          <img
+            src="../keerthan.jpg"
+            alt="keerthan profile photo"
+            width="200"
+            height="150"
+          />
+          <h3>Name: Keerthan</h3>
+        </figure>
+        <h4>Passionate web developer.</h4>
+      </section>
+      <section id="skills" class="skill-section">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-item" data-level="90">HTML</div>
+        <div class="skill-item" data-level="80">CSS</div>
+        <div class="skill-item" data-level="75">JavaScript</div>
+        <div class="skill-item" data-level="60">React</div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" data-category="web">
+          <img src="../weather.jpg" alt="Weather App screenshot" />
+          <h3>Weather App</h3>
+          <p>Real-time weather dashboard using OpenWeather API</p>
+          <div class="project-tags">
+            <span>React</span>
+            <span>API</span>
+          </div>
+          <div class="project-links">
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2 class="section-title">Get In Touch</h2>
+      <form action="#" method="post" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Enter your message" rows="4" cols="50" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Keerthan | Built with HTML & CSS</p>
+    <nav aria-label="Social media links">
+      <a href="https://github.com/keerthan1606" target="_blank" aria-label="GitHub Profile">GitHub</a>
+      <a href="https://www.linkedin.com/in/keerthan-s-gowda-5521aa381/" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a>
+    </nav>
+  </footer>
+  </body>
+</html>

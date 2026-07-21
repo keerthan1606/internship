@@ -55,7 +55,7 @@ body{
 .hero-section{
     text-align: center;
     padding: 10px 20px;
-     background:linear-gradient(135deg, cyan,rgb(87, 240, 87));
+     background:linear-gradient(135deg, cyan,rgb(143, 236, 143));
 }
 .hero-section h1{
     font-size: 23px;
@@ -71,6 +71,14 @@ body{
     border-radius: 5px;
 }
 .about-section{
-    padding: 50px 20px;
-    background-color: var(--);
+    padding: 10px 20px;
+    background-color: var(--light);
+}
+.about-section h2{
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.skill-section{
+    padding: 0px 20px;
 }
