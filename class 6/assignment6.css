@@ -119,10 +119,12 @@ body{
 }
 
 .projects-grid {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  /* gap: 20px;
+  flex-wrap: wrap; */
 }
 
 .project-card {
@@ -231,10 +233,13 @@ button.btn-primary:hover {
   align-items: center;
 }
 .skill-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  display: flex;
+  justify-content: center;  /* Centers horizontally */
+  align-items: center;      /* Centers vertically */
   gap: 20px;
+  flex-wrap: wrap;
 }
+
 .projects-grid {
   display: grid;
   grid-template-columns: 1fr;
